@@ -1,0 +1,174 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+main {
+    border: 2px solid black;
+    padding-bottom: 200px;
+    background-color: rgb(180, 180, 180);
+}
+
+.coluna1, .coluna2 {
+    float: left;
+    width: 300px;
+}
+
+.coluna1 {
+    background-color: rgb(127, 168, 192);
+    padding: 30px;
+    padding-right: 150px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+fieldset {
+    margin-top: 20px;
+    padding: 50px;
+    width: 1000px;
+    border-radius: 25px;
+}
+
+legend {
+    font-size: 2rem;
+}
+
+p.aumento {
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+
+p + p{
+    margin-top: 20px;
+} 
+
+
+label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+input {
+    width: 30px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.padtop {
+    padding-top: 10px;
+}
+
+.labcenter {
+    text-align: center;
+    margin-left: 150px;
+}
+
+.pcenter {
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 100px;
+    color: rgb(255, 0, 0);
+}
+
+.coluna2 {
+    margin-left: 80px;
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px;
+}
+
+.texto {
+    background-color:grey;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tecla1 {
+    background-color: rgb(70, 69, 69);
+    padding-bottom: 20px;
+}
+
+.pushable {
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+}
+
+.front {
+    height: 20px;
+    background: black;
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    transform: translateY(-6px);
+    color: white;
+}
+
+.pushable:active .front {
+    transform: translateY(-2px);
+}
+
+#tecla2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.branco {
+    background-color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.corrige {
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.confirma {
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+article {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+footer {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    clear: left;
+}

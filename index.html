@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>Votação</title>
+</head>
+
+<body>
+    <header>
+        <h1>Votação de Candidatos a prefeito da cidade do Rio de Janeiro</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Votação de Candidatos</legend>
+                <div class="coluna1">
+                    <p>
+                        TREINAMENTO<br>
+                        SEU VOTO PARA<br>
+                    </p>
+                    <P class="aumento">
+                        <strong>DEPUTADO <br>FEDERAL</strong>
+                    </P>
+                    <br>
+                    <div class="inline">
+                        <label>Número:</label>
+                        <input type="text" value="" id="campo1" readonly="readonly">
+                        <input type="text" value="" id="campo2" readonly="readonly">
+                    </div>
+                    <br>
+                    <div class="padtop">
+                        <label class="labcenter">Nome</label>
+                        <br><br>
+                        <p class="pcenter" id="mensagem1"></p>
+                        <br>
+                        <label class="labcenter">Partido</label>
+                        <br><br>
+                        <p class="pcenter" id="mensagem2"></p>
+                    </div>
+                    <br><br>
+                    <hr />
+                    <p>
+                        Aperte a Tecla<br>
+                        Verde para CONFIRMAR<br>
+                        LARANJA para CORRIGIR.
+                    </p>
+                </div>
+                <div class="coluna2">
+                    <div class="texto">
+                        <h3>JUSTIÇA ELEITORAL</h3>
+                    </div>
+                    <div class="tecla1">
+                        <button class="pushable" type="button" id="btn1"><span class="front">1</span></button>
+                        <button class="pushable" type="button" id="btn2"><span class="front">2</span></button>
+                        <button class="pushable" type="button" id="btn3"><span class="front">3</span></button>
+
+                        <div>
+                            <button class="pushable" type="button" id="btn4"><span class="front">4</span></button>
+                            <button class="pushable" type="button" id="btn5"><span class="front">5</span></button>
+                            <button class="pushable" type="button" id="btn6"><span class="front">6</span></button>
+                        </div>
+                        <div>
+                            <button class="pushable" type="button" id="btn7"><span class="front">7</span></button>
+                            <button class="pushable" type="button" id="btn8"><span class="front">8</span></button>
+                            <button class="pushable" type="button" id="btn9"><span class="front">9</span></button>
+                        </div>
+                        <div>
+                            <button class="pushable" type="button" id="btn0"><span class="front">0</span></button>
+                        </div>
+                        <div id="tecla2">
+                            <button class="branco" type="button" name="btnbranco" id="btnbranco">BRANCO</button>
+                            <button class="corrige" type="button" name="btncorrigir" id="btncorrigir">CORRIGIR</button>
+                            <button class="confirma" type="button" name="btnconfirma" id="btnconfirma">CONFIRMAR</button>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <article>
+            <h4>Resultados:</h4>
+            <br>
+            <p id="mensagem3"></p>
+            <p id="mensagem4"></p>
+            <p id="mensagem5"></p>
+            <p id="mensagem6"></p>
+            <p id="mensagem7"></p>
+            <p id="mensagem8"></p>
+            <p id="mensagem9"></p>
+            <p id="mensagem10"></p>
+            <p id="mensagem11"></p>
+            <p id="mensagem12"></p>
+            <p id="mensagem13"></p>
+            <p id="mensagem14"></p>
+            <p id="mensagem15"></p>
+        </article>
+    </main>
+    <footer>
+        &copy;<strong>Autor: </strong>Marcello Di Silvestro &nbsp; <strong>E-mail:</strong><a
+            href="mailto:marcellodisilvestro@outlook.com">marcellodisilvestro@outlook.com</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
